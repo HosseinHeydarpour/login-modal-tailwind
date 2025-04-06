@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-button-social',
+  selector: 'button[appButtonSocial]',
   standalone: true,
   imports: [],
   templateUrl: './button-social.component.html',
-  styleUrl: './button-social.component.scss'
+  styleUrl: './button-social.component.scss',
+  host: {
+    class: 'btn-social',
+  },
 })
-export class ButtonSocialComponent {
-
-}
+export class ButtonSocialComponent {}
