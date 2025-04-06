@@ -1,27 +1,59 @@
-# LoginModal
+# 🔐 LoginModal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
+🔗 **Live Demo**: [login-modal-tailwind-pearl.vercel.app](https://login-modal-tailwind-pearl.vercel.app/)
 
-## Development server
+This is a **login modal project** built using **Angular** and styled with **Tailwind CSS**. The goal of this project was to get comfortable with creating **reusable UI components**, managing **state in modals**, and designing with a **mobile-first approach**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🖥 Development Server
 
-## Build
+Run the following command to start the dev server:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+ng serve
+```
 
-## Running unit tests
+Navigate to [http://localhost:4200/](http://localhost:4200/). The application will automatically reload if you change any source files.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🛠 Build
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To build the project for production, run:
 
-## Further help
+```bash
+ng build
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+The build artifacts will be stored in the `dist/` directory.
+
+---
+
+## 🙋‍♂️ Further Help
+
+Need more help with Angular CLI? Use:
+
+```bash
+ng help
+```
+
+Or check out the official [Angular CLI documentation](https://angular.io/cli).
+
+---
+
+## 💡 What I Practiced
+
+- 🧩 Building a **login modal component**
+- 🔁 Using **reusable and modular code**
+- 📱 Embracing a **mobile-first design**
+- 🧠 Practicing state control and interactivity with modals
+- ✍️ Implementing **Angular template-driven forms**
+- ✅ Adding **input validation** for user authentication
+- 🎨 Styling and animations with **Tailwind CSS**
+
+---
+
+Thanks for checking this out! 🔐✨
