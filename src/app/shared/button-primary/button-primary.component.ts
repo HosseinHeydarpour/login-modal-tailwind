@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-button-primary',
+  selector: 'button[appButtonPrimary]',
   standalone: true,
   imports: [],
   templateUrl: './button-primary.component.html',
-  styleUrl: './button-primary.component.scss'
+  styleUrl: './button-primary.component.scss',
+  host: {
+    class: 'btn-primary',
+  },
 })
-export class ButtonPrimaryComponent {
-
-}
+export class ButtonPrimaryComponent {}
