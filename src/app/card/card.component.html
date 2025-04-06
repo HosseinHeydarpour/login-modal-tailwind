@@ -1,7 +1,39 @@
 <div
   class="relative flex flex-col m-6 space-y-10 bg-white shadow-2xl rounded-2x md:flex-row md:space-y-0 md:m-0"
 >
-  Hello
+  <!-- Left Side -->
+  <div class="p-6 md:p-20">
+    <!-- Top Content -->
+    <h2 class="font-mono mb-5 text-4xl font-bold">Log In</h2>
+    <p class="max-w-sm mb-12 font-sans font-light text-gray-600">
+      Log in to your account to upload or download pictures, videos or music.
+    </p>
+    <form (onSubmit)="onSubmit()" #f="ngForm">
+      <input
+        type="text"
+        class="w-full p-6 border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light"
+        placeholder="Enter your email address"
+        email
+        ngModel
+        required
+        #email="ngModel"
+        name="email"
+      />
+
+      @if (!email.valid && email.touched ) {
+      <p
+        class="mt-2 text-sm text-red-600 bg-red-50 border border-red-200 rounded-md px-3 py-1.5 shadow-sm"
+      >
+        Please enter a valid email address.
+      </p>
+      }
+
+      <!-- Middle Content -->
+      <div
+        class="flex flex-col items-center justify-between mt-6 space-y-6 md:flex-row md:space-y-0"
+      >
+        <div class="font-thin text-cyan-700">Forgot Password</div>
+
         <button appButtonPrimary>
           <span>Next</span>
           <svg
@@ -44,4 +76,7 @@
       </div>
     </form>
   </div>
+
+  <!-- Right side -->
+  <img src="image.jpg" alt="" class="w-[430px] hidden md:block" />
 </div>
